@@ -3,7 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.navbar-toggler:focus {
+    text-decoration: none!important;
+    outline: 0;
+    box-shadow: none!important;
+}
 .nav_two ul li{
  font-size: .9rem;
  font-weight: 500;
@@ -146,14 +150,19 @@
     .header_top_shape{
         width: 35px!important;
         height: 35px!important;
-        margin-top: .5rem!important;
     }
     .header_top_head{
         font-size: .85rem!important;
         margin-left: 1rem!important;
     }
+    .hyphen_footer{
+        display: none!important;
+    }
+    .footer_copyright{
+        text-align: center!important;
+    }
   }
-  @media screen and (max-width: 490px) {
+  @media screen and (max-width: 390px) {
 
     .header_top_shape{
         margin-top: .5rem!important;
