@@ -109,6 +109,9 @@
     .footer_grand_child_break{
         display: block!important;
     }
+    .section_third_img_con{
+        padding-bottom: 2.2rem;
+    }
   }
 
    @media screen and (max-width: 870px) {
@@ -154,5 +157,10 @@
 
     .header_top_shape{
         margin-top: .5rem!important;
+    }
+    .child1_second_section p{
+        font-size: .7rem!important;
+        padding-left: 0!important;
+        padding-right: 0!important;
     }
   }
