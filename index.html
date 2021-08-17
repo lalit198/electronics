@@ -16,7 +16,11 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
+  <!-- External Css -->
   <link rel="stylesheet" href="style.css">
+
+  <!--Jquery Cdn -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -98,14 +102,17 @@
   <!-- SECTION TWO -->
 
   <section class="second_section">
+    <div class="second_section1">
     <div class="row mx-0 child1_second_section">
+
       <div class="col-xxl-6 col-md-6 col-6 child2_second_section_padding" style="padding-left: 10rem;">
-        <p class="text-center mb-0 py-1 text-white" style="background-color: #ffdb58;">PRODUCTS GROUP</p>
+        <p class="second_section1_click1 text-center mb-0 py-1 text-white" style="background-color: #ffdb58;">PRODUCTS GROUP</p>
+      </div>
+  
+      <div class="col-xxl-6 col-md-6 col-6 child2_second_section_padding" style="padding-right: 10rem;">
+        <p class="second_section1_click2 text-center mb-0 py-1 text-white container">MARKET SPECIFIC SOLUTIONS</p>
       </div>
 
-      <div class="col-xxl-6 col-md-6 col-6 child2_second_section_padding" style="padding-right: 10rem;">
-        <p class="text-center mb-0 py-1 text-white container">MARKET SPECIFIC SOLUTIONS</p>
-      </div>
     </div>
 
     <div class="child2_second_section">
@@ -154,6 +161,67 @@
         </div>
       </div>
     </div>
+  </div>
+
+  <div class="second_section2" style="display: none;">
+    <div class="row mx-0 child1_second_section">
+      <div class="col-xxl-6 col-md-6 col-6 child2_second_section_padding" style="padding-left: 10rem;">
+        <p class="second_section1_click1 text-center mb-0 py-1 text-white">PRODUCTS GROUP</p>
+      </div>
+
+      <div class="col-xxl-6 col-md-6 col-6 child2_second_section_padding" style="padding-right: 10rem;">
+        <p class="second_section1_click2 text-center mb-0 py-1 text-white container" style="background-color: #ffdb58;">MARKET SPECIFIC SOLUTIONS</p>
+      </div>
+    </div>
+
+    <div class="child2_second_section">
+      <div class="row container mx-auto gx-3 gy-2 mt-0">
+        <div class="col-xxl-4 col-md-4 col-sm-12">
+          <div class="child2_second_section_item">
+            <div style="height: 4.5rem; width: 7rem; background-color: #fff;">
+            </div>
+            <div class="ml-3">
+              <p class="text-white font-weight-bolder mb-0 w-100" style="font-size: .9rem;">LCD PANELS2</p>
+              <p class="mt-1" style="font-size: .75rem; color: #fff;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sapient</p>
+            </div>
+            <span style="color: #000000; position: absolute; top: 2rem; right: 10%;font-size: .7rem;">more</span>
+
+          </div>
+
+        </div>
+
+        <div class="col-xxl-4 col-md-4 col-sm-12 child2_second_section_padding">
+          <div class="child2_second_section_item">
+            <div style="height: 4.5rem; width: 7rem; background-color: #fff;">
+            </div>
+            <div class="ml-3">
+              <p class="text-white font-weight-bolder mb-0 w-100" style="font-size: .9rem;">LCD PANELS2</p>
+              <p class="mt-1" style="font-size: .75rem; color: #fff;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sapient</p>
+            </div>
+            <span style="color: #000000; position: absolute; top: 2rem; right: 10%; font-size: .7rem;">more</span>
+
+          </div>
+
+        </div>
+
+        <div class="col-xxl-4 col-md-4 col-sm-12" style="position: relative;">
+          <div class="child2_second_section_item">
+            <div style="height: 4.5rem; width: 7rem; background-color: #fff;">
+            </div>
+            <div class="ml-3">
+              <p class="text-white font-weight-bolder mb-0 w-100" style="font-size: .9rem;">LCD PANELS2</p>
+              <p class="mt-1" style="font-size: .75rem; color: #fff;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sapient</p>
+            </div>
+            <span style="color: #000000; position: absolute; top: 2rem; right: 10%; font-size: .7rem;">more</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   </section>
 
   <!-- SECTION THREE -->
@@ -340,12 +408,27 @@
 
   <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- <script src="jquery/main.js"></script> -->
 
   <!-- Popper JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
   <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+    $(".second_section1_click2").click(function(){
+      $(".second_section2").css("display" , "block");
+      $(".second_section1").css("display" , "none");
+    });
+
+    $(".second_section1_click1").click(function(){
+        $(".second_section1").css("display" , "block");
+        $(".second_section2").css("display" , "none");
+      });
+  });
+  </script>
 
 </body>
 
