@@ -4,6 +4,11 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+.header_top_shape img{
+    width: 99px!important;
+    height: 99px!important;
+}
 .navbar-toggler:focus {
     text-decoration: none!important;
     outline: 0;
@@ -170,7 +175,7 @@
 
   @media screen and (max-width: 490px) {
 
-    .header_top_shape{
+    .header_top_shape img{
         width: 35px!important;
         height: 35px!important;
     }
