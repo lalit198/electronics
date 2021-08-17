@@ -183,6 +183,11 @@
         font-size: .85rem!important;
         margin-left: 1rem!important;
     }
+    .child1_second_section p{
+        font-size: .8rem!important;
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
     .hyphen_footer{
         display: none!important;
     }
