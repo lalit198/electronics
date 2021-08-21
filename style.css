@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: copperplate;
+    text-transform: lowercase;
 }
 @font-face {
     font-family: Copperplate-Heavy;
@@ -274,7 +275,7 @@
         font-size: .65rem!important;
     }
     .child1_second_section p{
-        font-size: .7rem!important;
+        font-size: .6rem!important;
         padding-left: 0!important;
         padding-right: 0!important;
     }
