@@ -5,9 +5,16 @@
     font-family: copperplate;
 }
 @font-face {
-    font-family: Copperplate;
+    font-family: Copperplate-Heavy;
     src: url(copperplate/OPTICopperplate.otf);
 }
+
+@font-face {
+    font-family: Copperplate;
+    src: url(copperplate2/Copperplate.ttf);
+}
+
+
 
 .header_top_shape img{
     width: 90px!important;
@@ -23,21 +30,24 @@
 }
 .nav_two ul li{
  font-size: .8rem;
- font-weight: 500;
+ font-weight: 600;
+ font-family: copperplate-Bold!important;
 }
 
 .nav_three{
     background-color: #cccecd;
 }
 .nav_three ul li a{
-    font-size: .87rem;
-    font-weight: 400;
+    font-size: .8rem;
+    font-weight: 600;
     color: black!important; 
    }
 
    .nav_three a{
       color: black!important;
-      font-size: .82rem;
+      font-size: .8rem;
+      font-weight: 600;
+
    }
 
    .nav_three_navbar a{
@@ -243,6 +253,15 @@
       width: 32px!important;
       height: 32px!important;
   }
+
+  .nav_three ul li a{
+    font-size: .7rem;
+   }
+
+   .nav_three a{
+      font-size: .7rem;
+
+   }
   
     }
 
@@ -259,6 +278,14 @@
         padding-left: 0!important;
         padding-right: 0!important;
     }
+    .nav_three ul li a{
+        font-size: .67rem;
+       }
+    
+       .nav_three a{
+          font-size: .67rem;
+    
+       }
   }
 
   @media screen and (max-width: 356px) {
@@ -269,4 +296,12 @@
     width: 29px!important;
     height: 29px!important;
 }
+.nav_three ul li a{
+    font-size: .5rem;
+   }
+
+   .nav_three a{
+      font-size: .5rem;
+
+   }
 }
